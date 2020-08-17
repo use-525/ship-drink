@@ -1,0 +1,119 @@
+.form-login {
+    padding: 40px 20%;
+    /* background-color: #ccc; */
+}
+
+.box-login-registered {
+    padding: 20px 15px;
+    /* background-color: white; */
+}
+
+.box-login-registered h5 {
+    /* text-align: center; */
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.box-login-registered .facebook {
+    padding: 10px 12px;
+    border-radius: 6px;
+    background-color: #187caa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-login-registered .fa-facebook {
+    padding: 8px;
+    border-radius: 40px;
+    font-size: 40px;
+    background-color: white;
+    color: #187caa;
+}
+
+.box-login-registered .facebook span {
+    text-align: center;
+    /* margin-left: 26.5%; */
+}
+
+.box-login-registered .google {
+    padding: 10px 12px;
+    border-radius: 6px;
+    background-color: #ff5252;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-login-registered .fa-google {
+    padding: 8px;
+    border-radius: 40px;
+    font-size: 40px;
+    background-color: white;
+    color: #ff5252;
+}
+
+.box-login-registered .google span {
+    text-align: center;
+    /* margin-left: 35%; */
+}
+
+.box-login-registered p {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.box-login-registered .box-registered {
+    display: none;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.login input[type=text] {
+    padding: 8px 12px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.login .icon-login {
+    color: #cccccc;
+    font-size: 16px;
+}
+
+.login .fa-envelope {
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 0.9%;
+}
+
+.login .fa-lock {
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 3.5%;
+}
+
+.save-lg {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0px;
+}
+
+.login input {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+
+.login button {
+    margin-top: 20px;
+    border: none;
+    padding: 10px 0px;
+    background-color: #5DACBD;
+    border-radius: 3px;
+}
